@@ -4,7 +4,7 @@
  * Author: WTERH
  * GitHub author: https://github.com/wterh
  * GitHub project: https://github.com/wterh/toki
- * License: MIT
+ * License: AS IS
  */
 error_reporting(E_ALL);
 
