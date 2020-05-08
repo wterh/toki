@@ -72,4 +72,11 @@ $router->get('/module/', function(){
     echo $module;
 });
 
+$router->get('/schema/', function(){
+    $schema = file_get_contents(BASE_DIR.DIRECTORY_SEPARATOR."assets/schema.svg");
+    header('Content-Disposition: attachment; filename="toki.svg"');
+    header('application/octet-stream');
+    echo $schema;
+});
+
 $router->dispatchGlobal();
